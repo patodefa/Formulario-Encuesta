@@ -1,0 +1,176 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Formulario de Encuesta</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1 id="title">Formulario de Encuesta</h1>
+  
+  <p id="description">Por favor, completa el siguiente formulario de encuesta:</p>
+  
+  <form id="survey-form" action="#" method="post">
+    <div class="form-group">
+      <label for="name" id="name-label">Nombre:</label>
+      <input type="text" id="name" name="name" required placeholder="Ingresa tu nombre">
+    </div>
+    
+    <div class="form-group">
+      <label for="email" id="email-label">Email:</label>
+      <input type="email" id="email" name="email" required placeholder="Ingresa tu correo electrónico">
+    </div>
+    
+    <div class="form-group">
+      <label for="number" id="number-label">Edad:</label>
+      <input type="number" id="number" name="number" min="1" max="100" required placeholder="Ingresa un número">
+    </div>
+    
+    <div class="form-group">
+      <label for="dropdown" id="dropdown-label">Estado civil:</label>
+      <select id="dropdown" name="dropdown">
+        <option value="">Selecciona una opción</option>
+        <option value="opcion1">Soltero/a</option>
+        <option value="opcion2">Casado/a</option>
+        <option value="opcion3">Divorciado/a</option>
+        <option value="opcion4">Viudo/a</option>
+        <option value="opcion5">Prefiero no responder</option>
+      </select>
+    </div>
+    
+    <div class="form-group">
+      <label>Género:</label>
+      <div class="radio-group">
+        <input type="radio" id="gender-male" name="gender" value="male">
+        <label for="gender-male">Masculino</label>
+      </div>
+      <div class="radio-group">
+        <input type="radio" id="gender-female" name="gender" value="female">
+        <label for="gender-female">Femenino</label>
+      </div>
+      <div class="radio-group">
+        <input type="radio" id="gender-No-binarie" name="gender" value="other">
+        <label for="gender-other">No binarie</label>
+      </div>
+       <div class="radio-group">
+        <input type="radio" id="gender-other" name="gender" value="other">
+        <label for="gender-other">Otro</label>
+      </div>
+    </div>
+    
+    <div class="form-group">
+      <label>Cuál de estas redes sociales usas frecuentemente?</label>
+      <div class="checkbox-group">
+        <input type="checkbox" id="checkbox1" name="checkbox" value="opcion1">
+        <label for="checkbox1">Instagram</label>
+      </div>
+      <div class="checkbox-group">
+        <input type="checkbox" id="checkbox2" name="checkbox" value="opcion2">
+        <label for="checkbox2">Facebook</label>
+      </div>
+      <div class="checkbox-group">
+        <input type="checkbox" id="checkbox3" name="checkbox" value="opcion3">
+        <label for="checkbox2">Twitter</label>
+        <div class="checkbox-group">
+        <input type="checkbox" id="checkbox4" name="checkbox" value="opcion4">
+        <label for="checkbox2">Tik Tok</label>
+        <div class="checkbox-group">
+        <input type="checkbox" id="checkbox5" name="checkbox" value="opcion5">
+        <label for="checkbox2">Otras</label>
+      </div>
+      </div>
+      </div>
+    </div>
+    
+    <div class="form-group">
+      <label for="comments">Si elegiste otras, cuales?</label>
+      <textarea id="comments" name="comments" placeholder="Ingresa tus comentarios"></textarea>
+    </div>
+    
+    <div class="form-group">
+      <input type="submit" value="Enviar" id="submit">
+    </div>
+  </form>
+</body>
+</html>
+
+
+** end of undefined **
+
+** start of undefined **
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  margin: 0;
+  padding: 20px;
+}
+
+#container {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+}
+
+form {
+  margin-top: 20px;
+}
+
+label {
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 3px solid #ccc;
+  border-radius: 15px;
+}
+
+select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+}
+
+input[type="submit"] {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: rgb(0,150,0);
+  color: white;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+}
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  margin: 0;
+  padding: 20px;
+}
+
+#container {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  padding
+
+
+
+** end of undefined **
+
